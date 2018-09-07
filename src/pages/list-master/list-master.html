@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{ 'LIST_MASTER_TITLE' | translate }}</ion-title>
+    <ion-title>Activities</ion-title>
 
     <ion-buttons end>
       <button ion-button icon-only (click)="addItem()">
@@ -21,13 +21,13 @@
           <img [src]="item.profilePic" />
         </ion-avatar>
         <h2>{{item.name}}</h2>
-        <p>{{item.about}}</p>
+        <p>{{item.distance}}, gathered {{ item.litter }} pieces of litter.</p>
         <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
       </button>
 
       <ion-item-options>
         <button ion-button color="danger" (click)="deleteItem(item)">
-          {{ 'DELETE_BUTTON' | translate }}
+          HIDE
         </button>
       </ion-item-options>
     </ion-item-sliding>
