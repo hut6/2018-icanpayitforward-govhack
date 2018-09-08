@@ -1,7 +1,8 @@
 import { Component, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Camera } from '@ionic-native/camera';
-import { IonicPage, NavController, ViewController } from 'ionic-angular';
+import {IonicPage, NavController, NavParams, ViewController} from 'ionic-angular';
+import {Settings} from "../../providers";
 
 @IonicPage()
 @Component({
@@ -11,58 +12,57 @@ import { IonicPage, NavController, ViewController } from 'ionic-angular';
 export class ItemCreatePage {
   @ViewChild('fileInput') fileInput;
 
+  options: any;
+
+  settingsReady = false;
+
   isReadyToSave: boolean;
 
   item: any;
 
   form: FormGroup;
 
-  constructor(public navCtrl: NavController, public viewCtrl: ViewController, formBuilder: FormBuilder, public camera: Camera) {
-    this.form = formBuilder.group({
-      profilePic: [''],
-      name: ['', Validators.required],
-      about: ['']
-    });
+  type: string;
 
-    // Watch the form for changes, and
-    this.form.valueChanges.subscribe((v) => {
-      this.isReadyToSave = this.form.valid;
-    });
+  constructor(public navCtrl: NavController,
+              public params: NavParams,
+              public viewCtrl: ViewController,
+              private formBuilder: FormBuilder,
+              public camera: Camera,
+              public settings: Settings,
+  ) {
+
+    this.type = params.get('type');
   }
 
   ionViewDidLoad() {
 
   }
 
-  getPicture() {
-    if (Camera['installed']()) {
-      this.camera.getPicture({
-        destinationType: this.camera.DestinationType.DATA_URL,
-        targetWidth: 96,
-        targetHeight: 96
-      }).then((data) => {
-        this.form.patchValue({ 'profilePic': 'data:image/jpg;base64,' + data });
-      }, (err) => {
-        alert('Unable to take photo');
-      })
-    } else {
-      this.fileInput.nativeElement.click();
-    }
-  }
+  ionViewWillEnter() {
+    this.settings.load().then(() => {
+      this.settingsReady = true;
+      this.options = this.settings.allSettings;
 
-  processWebImage(event) {
-    let reader = new FileReader();
-    reader.onload = (readerEvent) => {
+      this.form = this.formBuilder.group({
+          profilePic: [this.options.profilePic],
+          name: [this.options.name, Validators.required],
+          type: [this.type],
+          pickup: ['', Validators.required],
+          destination: ['', Validators.required],
+          time: ['', Validators.required],
+      });
 
-      let imageData = (readerEvent.target as any).result;
-      this.form.patchValue({ 'profilePic': imageData });
-    };
+      // Watch the form for changes, and
+      this.form.valueChanges.subscribe((v) => {
+          this.isReadyToSave = this.form.valid;
+      });
 
-    reader.readAsDataURL(event.target.files[0]);
+    });
   }
 
   getProfileImageStyle() {
-    return 'url(' + this.form.controls['profilePic'].value + ')'
+      return 'url(' + this.form.controls['profilePic'].value + ')'
   }
 
   /**

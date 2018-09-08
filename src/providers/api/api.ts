@@ -1,4 +1,5 @@
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpParams, HttpHeaders } from '@angular/common/http';
+import { RequestOptions } from '@angular/http';
 import { Injectable } from '@angular/core';
 
 /**
@@ -6,9 +7,17 @@ import { Injectable } from '@angular/core';
  */
 @Injectable()
 export class Api {
-  url: string = 'https://example.com/api/v1';
+  url: string = 'http://govhack.hutsix.com.au';
+
+  requestOptions: any;
 
   constructor(public http: HttpClient) {
+
+      this.requestOptions = {
+          headers: new HttpHeaders(),
+          params: new HttpParams()
+      };
+
   }
 
   get(endpoint: string, params?: any, reqOpts?: any) {
@@ -30,7 +39,11 @@ export class Api {
   }
 
   post(endpoint: string, body: any, reqOpts?: any) {
-    return this.http.post(this.url + '/' + endpoint, body, reqOpts);
+    let formData = new FormData();
+    for (let key in body) {
+        formData.append(key, body[key])
+    }
+    return this.http.post(this.url + '/' + endpoint, formData, reqOpts);
   }
 
   put(endpoint: string, body: any, reqOpts?: any) {

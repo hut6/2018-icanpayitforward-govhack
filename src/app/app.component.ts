@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import {ChangeDetectorRef, Component, ViewChild} from '@angular/core';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { TranslateService } from '@ngx-translate/core';
@@ -8,15 +8,21 @@ import { FirstRunPage } from '../pages';
 import { Settings } from '../providers';
 
 @Component({
-  template: `<ion-menu [content]="content">
+  template: `<ion-menu [content]="content" (ionOpen)="openMenu()">
     <ion-header>
       <ion-toolbar>
-        <ion-title>Pages</ion-title>
+        <ion-title>App Name</ion-title>
       </ion-toolbar>
     </ion-header>
 
     <ion-content>
-      <ion-list>
+      <ion-list *ngIf="settingsReady == true">
+        <button menuClose ion-item *ngIf="options.accountType == 'rider'" (click)="openPage(riderPage)">
+            {{riderPage.title}}
+        </button>
+        <button menuClose ion-item *ngIf="options.accountType == 'driver'" (click)="openPage(driverPage)">
+            {{driverPage.title}}
+        </button>
         <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
           {{p.title}}
         </button>
@@ -31,22 +37,29 @@ export class MyApp {
 
   @ViewChild(Nav) nav: Nav;
 
+  riderPage: any = { title: 'Request a Ride', component: 'ContentPage' };
+  driverPage: any = { title: 'Pending Requests', component: 'ListMasterPage' };
+
   pages: any[] = [
     //{ title: 'Tutorial', component: 'TutorialPage' },
-    { title: 'Activity', component: 'TabsPage' },
-    { title: 'Cards', component: 'CardsPage' },
-    { title: 'Content', component: 'ContentPage' },
+    //{ title: 'Activity', component: 'TabsPage' },
+    //{ title: 'Cards', component: 'CardsPage' },
+    //{ title: 'Request a Ride', component: 'ContentPage' },
     //{ title: 'Login', component: 'LoginPage' },
     //{ title: 'Signup', component: 'SignupPage' },
-    //{ title: 'List', component: 'ListMasterPage' },
+    //{ title: 'Pending Requests', component: 'ListMasterPage' },
     //{ title: 'Menu', component: 'MenuPage' },
-    { title: 'Settings', component: 'SettingsPage' },
+    { title: 'Profile', component: 'SettingsPage' },
     //{ title: 'Search', component: 'SearchPage' },
     { title: 'Sign Out', component: 'WelcomePage' },
 
   ]
 
-  constructor(private translate: TranslateService, platform: Platform, settings: Settings, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen) {
+  options: any;
+
+  settingsReady = false;
+
+  constructor(private translate: TranslateService, platform: Platform, public settings: Settings, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen, private ref: ChangeDetectorRef) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
@@ -87,4 +100,14 @@ export class MyApp {
     // we wouldn't want the back button to show in this scenario
     this.nav.setRoot(page.component);
   }
+
+  openMenu(){
+      this.settings.load().then(() => {
+          this.settingsReady = true;
+          this.options = this.settings.allSettings;
+          console.log(this.options)
+          this.ref.detectChanges();
+      })
+  }
+
 }

@@ -9,20 +9,24 @@ export class Items {
   defaultItem: any = {
       "name": "Some Guy",
       "profilePic": "assets/img/speakers/bear.jpg",
-      "distance": "10km",
-      "litter": "12",
-      "Note": "10m"
+      "pickup": "11 Todd Street, alice springs",
+      "destination": "Alice Springs Hospital",
+      "time": "",
+      "distance": "10km"
   };
 
 
   constructor() {
     let items = [
       {
-        "name": "Some Guy",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "distance": "10km",
-        "litter": "12",
-        "note": "10m"
+          "name": "Some Guy",
+          "profilePic": "assets/img/speakers/bear.jpg",
+          "pickup": "11 Todd Street, alice springs",
+          "destination": "Alice Springs Hospital",
+          "time": "",
+          "distance": "10km",
+          "type": "doctor"
+
       },
     ];
 

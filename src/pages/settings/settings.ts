@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { Settings } from '../../providers';
+import {Camera} from "@ionic-native/camera";
 
 /**
  * The Settings page is a simple form that syncs with a Settings provider
@@ -16,6 +17,7 @@ import { Settings } from '../../providers';
   templateUrl: 'settings.html'
 })
 export class SettingsPage {
+  @ViewChild('fileInput') fileInput;
   // Our local settings object
   options: any;
 
@@ -38,25 +40,17 @@ export class SettingsPage {
     public settings: Settings,
     public formBuilder: FormBuilder,
     public navParams: NavParams,
-    public translate: TranslateService) {
+    public translate: TranslateService,
+    public camera: Camera) {
   }
 
   _buildForm() {
     let group: any = {
-      option1: [this.options.option1],
-      option2: [this.options.option2],
-      option3: [this.options.option3]
+      name: [this.options.name],
+      profilePic: [this.options.profilePic],
+      accountType: [this.options.accountType],
     };
 
-    switch (this.page) {
-      case 'main':
-        break;
-      case 'profile':
-        group = {
-          option4: [this.options.option4]
-        };
-        break;
-    }
     this.form = this.formBuilder.group(group);
 
     // Watch the form for changes, and
@@ -89,7 +83,39 @@ export class SettingsPage {
     });
   }
 
-  ngOnChanges() {
+    getPicture() {
+        if (Camera['installed']()) {
+            this.camera.getPicture({
+                destinationType: this.camera.DestinationType.DATA_URL,
+                targetWidth: 96,
+                targetHeight: 96
+            }).then((data) => {
+                this.form.patchValue({ 'profilePic': 'data:image/jpg;base64,' + data });
+            }, (err) => {
+                alert('Unable to take photo');
+            })
+        } else {
+            this.fileInput.nativeElement.click();
+        }
+    }
+
+    processWebImage(event) {
+        let reader = new FileReader();
+        reader.onload = (readerEvent) => {
+
+            let imageData = (readerEvent.target as any).result;
+            this.form.patchValue({ 'profilePic': imageData });
+        };
+
+        reader.readAsDataURL(event.target.files[0]);
+    }
+
+    getProfileImageStyle() {
+        return 'url(' + this.form.controls['profilePic'].value + ')'
+    }
+
+
+    ngOnChanges() {
     console.log('Ng All Changes');
   }
 }
