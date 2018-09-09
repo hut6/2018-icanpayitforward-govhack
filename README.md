@@ -1,4 +1,7 @@
-# Tidy Trek
+# Pay it Forward App
+HutSix submission for Govhack 2018
+
+#To build:
 
 Install Ionic CLI:
 
