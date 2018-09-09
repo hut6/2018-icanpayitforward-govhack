@@ -8,11 +8,11 @@ export class Items {
 
   constructor(public api: Api) { }
 
-  query(params?: any) {
+  query(params?: any): Promise<any> {
     return this.api.get('get-trips.php', params).toPromise();
   }
 
-  add(item: Item) {
+  add(item: Item): Promise<any> {
       return this.api.post('add-trip.php', {tripData: JSON.stringify(item)} ).toPromise();
   }
 

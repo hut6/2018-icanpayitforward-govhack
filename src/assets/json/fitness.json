@@ -1,0 +1,1289 @@
+{"fitness": {
+  "Park": [
+    {
+      "service": "Sunset Park",
+      "lat": -12.3808479560078,
+      "lng": 130.841741819595
+    },
+    {
+      "service": "Nightcliff Foreshore",
+      "lat": -12.3762595146461,
+      "lng": 130.854134798006
+    },
+    {
+      "service": "Bill Bell Park",
+      "lat": -12.3790061136324,
+      "lng": 130.847697288994
+    },
+    {
+      "service": "Cahill Park",
+      "lat": -12.3726544596046,
+      "lng": 130.874280909772
+    },
+    {
+      "service": "Croker Park",
+      "lat": -12.3719612914439,
+      "lng": 130.874565319579
+    },
+    {
+      "service": "Airlie Park",
+      "lat": -12.3663100071144,
+      "lng": 130.872600654717
+    },
+    {
+      "service": "Ellengowan Park",
+      "lat": -12.3658445076651,
+      "lng": 130.873697082069
+    },
+    {
+      "service": "Buchanan Park",
+      "lat": -12.371265929253,
+      "lng": 130.874906565239
+    },
+    {
+      "service": "Calvert Park",
+      "lat": -12.364403004411,
+      "lng": 130.874526462737
+    },
+    {
+      "service": "Kailis Park",
+      "lat": -12.3684764135687,
+      "lng": 130.890735918859
+    },
+    {
+      "service": "Tommy Lyons Park",
+      "lat": -12.3549945785647,
+      "lng": 130.88880142586
+    },
+    {
+      "service": "Matla Park",
+      "lat": -12.3608085666326,
+      "lng": 130.889810869035
+    },
+    {
+      "service": "Dangoerra Park",
+      "lat": -12.3639142905123,
+      "lng": 130.891174549588
+    },
+    {
+      "service": "Blackburn St Park",
+      "lat": -12.3651958840583,
+      "lng": 130.893559072693
+    },
+    {
+      "service": "Withnall Street Park",
+      "lat": -12.3654263086158,
+      "lng": 130.89724642551
+    },
+    {
+      "service": "Bilingga Park",
+      "lat": -12.3520227963117,
+      "lng": 130.887102462611
+    },
+    {
+      "service": "Bowditch St Park",
+      "lat": -12.358007209786,
+      "lng": 130.891778874311
+    },
+    {
+      "service": "Marraki Park",
+      "lat": -12.3607918373333,
+      "lng": 130.876997408313
+    },
+    {
+      "service": "Glencoe Park",
+      "lat": -12.3599927107993,
+      "lng": 130.877123508071
+    },
+    {
+      "service": "Koolpinyah Park",
+      "lat": -12.3632343121583,
+      "lng": 130.882237799193
+    },
+    {
+      "service": "Dorisvale Park",
+      "lat": -12.3613020269141,
+      "lng": 130.883597707827
+    },
+    {
+      "service": "Kapalga Park",
+      "lat": -12.3654687635391,
+      "lng": 130.878729341824
+    },
+    {
+      "service": "Strele Park",
+      "lat": -12.3711808289599,
+      "lng": 130.885240693128
+    },
+    {
+      "service": "Johnson Park",
+      "lat": -12.3725672946682,
+      "lng": 130.878914550431
+    },
+    {
+      "service": "Cahill Greenbelt",
+      "lat": -12.3733743475984,
+      "lng": 130.873999442722
+    },
+    {
+      "service": "Copeland Park",
+      "lat": -12.3686126483356,
+      "lng": 130.874640589
+    },
+    {
+      "service": "Harwood Park",
+      "lat": -12.3680767670518,
+      "lng": 130.879278788821
+    },
+    {
+      "service": "Britomart Park",
+      "lat": -12.3779175268804,
+      "lng": 130.879145308942
+    },
+    {
+      "service": "Alawa Park",
+      "lat": -12.3791584620211,
+      "lng": 130.874405447838
+    },
+    {
+      "service": "Wellington Park",
+      "lat": -12.3783429786069,
+      "lng": 130.874139199885
+    },
+    {
+      "service": "Stedcombe Park",
+      "lat": -12.3802004916343,
+      "lng": 130.878882847968
+    },
+    {
+      "service": "Stobo Park",
+      "lat": -12.3812063635029,
+      "lng": 130.874153997418
+    },
+    {
+      "service": "Colster Park",
+      "lat": -12.3820786506129,
+      "lng": 130.882193025483
+    },
+    {
+      "service": "Cameron Park",
+      "lat": -12.3856792983839,
+      "lng": 130.872184449873
+    },
+    {
+      "service": "Killian Park",
+      "lat": -12.3849259945548,
+      "lng": 130.874775519434
+    },
+    {
+      "service": "Thornton Park",
+      "lat": -12.3873961428293,
+      "lng": 130.87827421563
+    },
+    {
+      "service": "Gaden Park",
+      "lat": -12.3885743019495,
+      "lng": 130.871427252833
+    },
+    {
+      "service": "Linde Park",
+      "lat": -12.3939902234327,
+      "lng": 130.879442406269
+    },
+    {
+      "service": "Grasslands Park",
+      "lat": -12.3771017038118,
+      "lng": 130.897030871678
+    },
+    {
+      "service": "Wulagi Greenbelt",
+      "lat": -12.3830580221445,
+      "lng": 130.891962452624
+    },
+    {
+      "service": "Kestrel Park",
+      "lat": -12.3849894569095,
+      "lng": 130.890774647464
+    },
+    {
+      "service": "Wulagi Greenbelt",
+      "lat": -12.3859054647503,
+      "lng": 130.897035388048
+    },
+    {
+      "service": "Grebe Park",
+      "lat": -12.3869554818949,
+      "lng": 130.894802577186
+    },
+    {
+      "service": "Anula Greenbelt",
+      "lat": -12.3879020905759,
+      "lng": 130.88904751516
+    },
+    {
+      "service": "Yanyula Greenbelt",
+      "lat": -12.3903787433227,
+      "lng": 130.895348810907
+    },
+    {
+      "service": "Yanyula Park",
+      "lat": -12.3906064387859,
+      "lng": 130.891031217105
+    },
+    {
+      "service": "Driffield Park",
+      "lat": -12.3924163017963,
+      "lng": 130.88756791459
+    },
+    {
+      "service": "Haritos Park",
+      "lat": -12.3716198137092,
+      "lng": 130.889118644979
+    },
+    {
+      "service": "Mazlin Park",
+      "lat": -12.3671178284531,
+      "lng": 130.887188743062
+    },
+    {
+      "service": "Harmanis Park",
+      "lat": -12.3739494358839,
+      "lng": 130.889093365124
+    },
+    {
+      "service": "Fong Park",
+      "lat": -12.37573770251,
+      "lng": 130.88694557309
+    },
+    {
+      "service": "Amsterdam Park",
+      "lat": -12.3777560097019,
+      "lng": 130.88422230659
+    },
+    {
+      "service": "Groote Park",
+      "lat": -12.3792183023189,
+      "lng": 130.887548740515
+    },
+    {
+      "service": "Tasman Park",
+      "lat": -12.3833442352704,
+      "lng": 130.886708628377
+    },
+    {
+      "service": "Greenwood Park",
+      "lat": -12.3855567385952,
+      "lng": 130.882033354337
+    },
+    {
+      "service": "Lions Club Park",
+      "lat": -12.3864292938045,
+      "lng": 130.885454696669
+    },
+    {
+      "service": "Wilson Park",
+      "lat": -12.3888310231754,
+      "lng": 130.883897953527
+    },
+    {
+      "service": "Byrne Park",
+      "lat": -12.3931940095136,
+      "lng": 130.88301049914
+    },
+    {
+      "service": "Butters Park",
+      "lat": -12.3923579735225,
+      "lng": 130.881449497147
+    },
+    {
+      "service": "Baines Street",
+      "lat": -12.371137160051,
+      "lng": 130.900979316929
+    },
+    {
+      "service": "Savannah Park",
+      "lat": -12.3775977093433,
+      "lng": 130.899983271985
+    },
+    {
+      "service": "Baines Street",
+      "lat": -12.3722555462346,
+      "lng": 130.89984845019
+    },
+    {
+      "service": "Parkside Park",
+      "lat": -12.3764101412452,
+      "lng": 130.90359116811
+    },
+    {
+      "service": "Killupa Park",
+      "lat": -12.380848789722,
+      "lng": 130.902943072587
+    },
+    {
+      "service": "Rosella Park",
+      "lat": -12.3856638691671,
+      "lng": 130.902663503073
+    },
+    {
+      "service": "Moody Park",
+      "lat": -12.3885610878675,
+      "lng": 130.907226972269
+    },
+    {
+      "service": "Bayfield Park",
+      "lat": -12.3917882391121,
+      "lng": 130.905903283874
+    },
+    {
+      "service": "Holzerland Park",
+      "lat": -12.3952362005542,
+      "lng": 130.90449706596
+    },
+    {
+      "service": "Abbot Park",
+      "lat": -12.399125240882,
+      "lng": 130.905875206472
+    },
+    {
+      "service": "Holzerland Green Belt",
+      "lat": -12.395873058335,
+      "lng": 130.906632891247
+    },
+    {
+      "service": "Mullen Park",
+      "lat": -12.3770823451507,
+      "lng": 130.873561960761
+    },
+    {
+      "service": "Young Park",
+      "lat": -12.3790300581989,
+      "lng": 130.871235847089
+    },
+    {
+      "service": "Ternau Park",
+      "lat": -12.3795806690357,
+      "lng": 130.853150361746
+    },
+    {
+      "service": "Bald Park",
+      "lat": -12.3826690295106,
+      "lng": 130.870195772377
+    },
+    {
+      "service": "Bike Fun Park",
+      "lat": -12.3827123136088,
+      "lng": 130.868038518205
+    },
+    {
+      "service": "Varney Park",
+      "lat": -12.3865706621301,
+      "lng": 130.869698712288
+    },
+    {
+      "service": "Gulnare Park",
+      "lat": -12.3936636671242,
+      "lng": 130.865995459331
+    },
+    {
+      "service": "Harris Park",
+      "lat": -12.3933049959024,
+      "lng": 130.856478349147
+    },
+    {
+      "service": "Mueller Park",
+      "lat": -12.3957390839579,
+      "lng": 130.908898990084
+    },
+    {
+      "service": "Mahogany Park",
+      "lat": -12.3963543368631,
+      "lng": 130.910756335025
+    },
+    {
+      "service": "Koolinda Park",
+      "lat": -12.3988751926131,
+      "lng": 130.915813016309
+    },
+    {
+      "service": "Manunda Park",
+      "lat": -12.4038641229009,
+      "lng": 130.91676910004
+    },
+    {
+      "service": "Eaton Park",
+      "lat": -12.4056242180628,
+      "lng": 130.918787479022
+    },
+    {
+      "service": "Whittle Park",
+      "lat": -12.3971514819591,
+      "lng": 130.917248452347
+    },
+    {
+      "service": "Dickinson Park",
+      "lat": -12.3946275119149,
+      "lng": 130.917690907519
+    },
+    {
+      "service": "Freycinet Park",
+      "lat": -12.4069539813013,
+      "lng": 130.921017479787
+    },
+    {
+      "service": "Hayball Park",
+      "lat": -12.3968135069807,
+      "lng": 130.919397844057
+    },
+    {
+      "service": "Easther Park",
+      "lat": -12.3898587969426,
+      "lng": 130.853994257412
+    },
+    {
+      "service": "Sunset Cove",
+      "lat": -12.3913844469474,
+      "lng": 130.850001976771
+    },
+    {
+      "service": "Sunset Cove",
+      "lat": -12.3917193177942,
+      "lng": 130.851164532766
+    },
+    {
+      "service": "Osterman Park",
+      "lat": -12.3945197926484,
+      "lng": 130.850191910696
+    },
+    {
+      "service": "Sunset Cove",
+      "lat": -12.3919673257802,
+      "lng": 130.850148740909
+    },
+    {
+      "service": "Old Mcmillans Park",
+      "lat": -12.3958913441995,
+      "lng": 130.853897058865
+    },
+    {
+      "service": "Nation Crescent Park",
+      "lat": -12.397686607285,
+      "lng": 130.854257059139
+    },
+    {
+      "service": "Tudawali Park",
+      "lat": -12.4113758116553,
+      "lng": 130.853883843758
+    },
+    {
+      "service": "Allen Park",
+      "lat": -12.4265643481403,
+      "lng": 130.837511309998
+    },
+    {
+      "service": "Aviators Park",
+      "lat": -12.4238284958675,
+      "lng": 130.837077170952
+    },
+    {
+      "service": "Clancy Park",
+      "lat": -12.4278040703515,
+      "lng": 130.843979559288
+    },
+    {
+      "service": "Smith Park",
+      "lat": -12.42687660463,
+      "lng": 130.839558340132
+    },
+    {
+      "service": "Worgan Park",
+      "lat": -12.4295906147808,
+      "lng": 130.847059439186
+    },
+    {
+      "service": "Qantas Park",
+      "lat": -12.4305149553131,
+      "lng": 130.841947144714
+    },
+    {
+      "service": "Arafura Park",
+      "lat": -12.4314914771701,
+      "lng": 130.848035108484
+    },
+    {
+      "service": "Borella Park",
+      "lat": -12.3906470714292,
+      "lng": 130.87514832884
+    },
+    {
+      "service": "McMillans Road Greenbelt",
+      "lat": -12.3936762628917,
+      "lng": 130.893968138664
+    },
+    {
+      "service": "Tomaris Park",
+      "lat": -12.4007221742914,
+      "lng": 130.893657823664
+    },
+    {
+      "service": "Rapid Creek Reserve - South",
+      "lat": -12.398878198368,
+      "lng": 130.875391530943
+    },
+    {
+      "service": "Mosec Park",
+      "lat": -12.4204921640777,
+      "lng": 130.855659510294
+    },
+    {
+      "service": "Gilbert Park",
+      "lat": -12.426849829807,
+      "lng": 130.850038476857
+    },
+    {
+      "service": "Narrows Vacant Block",
+      "lat": -12.4248439154975,
+      "lng": 130.857139131863
+    },
+    {
+      "service": "Dwyer Park",
+      "lat": -12.4267711293643,
+      "lng": 130.860750447862
+    },
+    {
+      "service": "Lores Bonney Park",
+      "lat": -12.4301038174902,
+      "lng": 130.852817314132
+    },
+    {
+      "service": "Ginty Mcginness Park",
+      "lat": -12.4314426456112,
+      "lng": 130.85091106406
+    },
+    {
+      "service": "Seascapes Park",
+      "lat": -12.4358769320932,
+      "lng": 130.857900826438
+    },
+    {
+      "service": "Latrobe Street Park",
+      "lat": -12.4349481251537,
+      "lng": 130.859393841232
+    },
+    {
+      "service": "Brian Chong Wee Park",
+      "lat": -12.4364241236867,
+      "lng": 130.85090829635
+    },
+    {
+      "service": "Stoddart Park",
+      "lat": -12.4392874481793,
+      "lng": 130.854311907286
+    },
+    {
+      "service": "Half Moon Park",
+      "lat": -12.4406966546315,
+      "lng": 130.856476589002
+    },
+    {
+      "service": "Pioneer Park",
+      "lat": -12.4375002705684,
+      "lng": 130.840855002768
+    },
+    {
+      "service": "Weddell Park",
+      "lat": -12.4346892643658,
+      "lng": 130.840712477864
+    },
+    {
+      "service": "Antony Memorial Park",
+      "lat": -12.4388917720379,
+      "lng": 130.842749851917
+    },
+    {
+      "service": "Stokes Street Park",
+      "lat": -12.4361225878713,
+      "lng": 130.842858463219
+    },
+    {
+      "service": "Somerville Park",
+      "lat": -12.4348224237751,
+      "lng": 130.844938980269
+    },
+    {
+      "service": "Anne Park",
+      "lat": -12.444438026358,
+      "lng": 130.843319329045
+    },
+    {
+      "service": "Beatrice Park",
+      "lat": -12.4457945822183,
+      "lng": 130.84723164253
+    },
+    {
+      "service": "Bill Sullivan Park",
+      "lat": -12.4455390313042,
+      "lng": 130.841987466618
+    },
+    {
+      "service": "Meigs Park",
+      "lat": -12.4462151835515,
+      "lng": 130.847297682451
+    },
+    {
+      "service": "Duke Street Park",
+      "lat": -12.4514083369421,
+      "lng": 130.842925869996
+    },
+    {
+      "service": "Que Noy Park",
+      "lat": -12.4490112986465,
+      "lng": 130.844017215675
+    },
+    {
+      "service": "Duke Street Reserve",
+      "lat": -12.4510515671796,
+      "lng": 130.84494560955
+    },
+    {
+      "service": "Duke Street Rainforest",
+      "lat": -12.4519771931674,
+      "lng": 130.842031440823
+    },
+    {
+      "service": "Wood Street Park",
+      "lat": -12.4563683908364,
+      "lng": 130.838251523697
+    },
+    {
+      "service": "Frog Hollow Park",
+      "lat": -12.4582005531553,
+      "lng": 130.841761354652
+    },
+    {
+      "service": "Brazil Park",
+      "lat": -12.4035371026881,
+      "lng": 130.921351797637
+    },
+    {
+      "service": "Creber Park",
+      "lat": -12.4043446096704,
+      "lng": 130.914811881089
+    },
+    {
+      "service": "Peron Park",
+      "lat": -12.4065670082214,
+      "lng": 130.922657278867
+    },
+    {
+      "service": "Kurrajong Park",
+      "lat": -12.3826882126616,
+      "lng": 130.844315154084
+    },
+    {
+      "service": "Grevillea Park",
+      "lat": -12.3827028801056,
+      "lng": 130.846033887288
+    },
+    {
+      "service": "Alf Blaser Park",
+      "lat": -12.3854516648567,
+      "lng": 130.846184819997
+    },
+    {
+      "service": "East Point Road Park",
+      "lat": -12.4212820165819,
+      "lng": 130.833765012433
+    },
+    {
+      "service": "George Park",
+      "lat": -12.4200884216665,
+      "lng": 130.834482642397
+    },
+    {
+      "service": "Bayview Park",
+      "lat": -12.418692338293,
+      "lng": 130.833521618216
+    },
+    {
+      "service": "Ken Waters Memorial Park",
+      "lat": -12.4233741148693,
+      "lng": 130.836179616362
+    },
+    {
+      "service": "Hinkler Park",
+      "lat": -12.4218680607861,
+      "lng": 130.836807383664
+    },
+    {
+      "service": "Vestey's Lagoon",
+      "lat": -12.4332135942891,
+      "lng": 130.835733293371
+    },
+    {
+      "service": "Fannie Bay Foreshore",
+      "lat": -12.4227053476235,
+      "lng": 130.83390300588
+    },
+    {
+      "service": "Gardens Park",
+      "lat": -12.4512995022492,
+      "lng": 130.836232848156
+    },
+    {
+      "service": "Warrego Park",
+      "lat": -12.4532468071654,
+      "lng": 130.831910220132
+    },
+    {
+      "service": "Malabar Park",
+      "lat": -12.4557854793012,
+      "lng": 130.830649407269
+    },
+    {
+      "service": "Dashwood Park",
+      "lat": -12.4557287256435,
+      "lng": 130.836589269927
+    },
+    {
+      "service": "Harriet Park",
+      "lat": -12.4571427612078,
+      "lng": 130.836229275113
+    },
+    {
+      "service": "Doctors Gully",
+      "lat": -12.4584462044402,
+      "lng": 130.832875608425
+    },
+    {
+      "service": "Woods and McMinn Street Park",
+      "lat": -12.4622776639445,
+      "lng": 130.845476270151
+    },
+    {
+      "service": "Tamarind Park",
+      "lat": -12.4638807354295,
+      "lng": 130.841013100201
+    },
+    {
+      "service": "Raintree Park",
+      "lat": -12.4629103265114,
+      "lng": 130.842062948178
+    },
+    {
+      "service": "Bicentennial Park",
+      "lat": -12.4631100352316,
+      "lng": 130.836835340495
+    },
+    {
+      "service": "Poinciana Park",
+      "lat": -12.4620403120145,
+      "lng": 130.840193376046
+    },
+    {
+      "service": "Bennett Park",
+      "lat": -12.4654472637756,
+      "lng": 130.843054999614
+    },
+    {
+      "service": "Civic Park",
+      "lat": -12.4651040392824,
+      "lng": 130.844831219859
+    },
+    {
+      "service": "Dudley Park",
+      "lat": -12.3799352202218,
+      "lng": 130.854563123714
+    },
+    {
+      "service": "Clarke Crescent Park",
+      "lat": -12.3786424709038,
+      "lng": 130.858854131629
+    },
+    {
+      "service": "Becker Park",
+      "lat": -12.3826437614981,
+      "lng": 130.862974332112
+    },
+    {
+      "service": "Stokes Park",
+      "lat": -12.3901343524993,
+      "lng": 130.86410084494
+    },
+    {
+      "service": "Kelsey Park",
+      "lat": -12.3899157481743,
+      "lng": 130.857605121468
+    },
+    {
+      "service": "Wong Yung Park",
+      "lat": -12.3940960443755,
+      "lng": 130.860146452044
+    },
+    {
+      "service": "Philpott St Park",
+      "lat": -12.3564108477372,
+      "lng": 130.894694531903
+    },
+    {
+      "service": "Colin St Parkland",
+      "lat": -12.3538354778068,
+      "lng": 130.892044036085
+    },
+    {
+      "service": "Changsha St Park",
+      "lat": -12.354710639791,
+      "lng": 130.897630634848
+    },
+    {
+      "service": "Ted Rowe Park",
+      "lat": -12.3589665618494,
+      "lng": 130.895080395152
+    },
+    {
+      "service": "Juliet Shields Park",
+      "lat": -12.3601913358966,
+      "lng": 130.893018755127
+    },
+    {
+      "service": "Breezes Muirhead Dog Park",
+      "lat": -12.3620551048616,
+      "lng": 130.89847632493
+    },
+    {
+      "service": "Bailey St Park",
+      "lat": -12.3623829962918,
+      "lng": 130.89283658173
+    },
+    {
+      "service": "William Forster Park",
+      "lat": -12.362154912404,
+      "lng": 130.895267411123
+    },
+    {
+      "service": "Armstrong Park",
+      "lat": -12.3663776015553,
+      "lng": 130.894018813305
+    },
+    {
+      "service": "Armstrong Park",
+      "lat": -12.3665299595944,
+      "lng": 130.895316931817
+    },
+    {
+      "service": "Cadell Park",
+      "lat": -12.3676590036352,
+      "lng": 130.897839274609
+    },
+    {
+      "service": "Peace Park",
+      "lat": -12.3735390221185,
+      "lng": 130.89481714239
+    },
+    {
+      "service": "Jabiru Park",
+      "lat": -12.3805598151779,
+      "lng": 130.892882591171
+    },
+    {
+      "service": "Plover Park",
+      "lat": -12.3798916284473,
+      "lng": 130.893075778799
+    },
+    {
+      "service": "Curlew Park",
+      "lat": -12.3791622948335,
+      "lng": 130.893485752172
+    },
+    {
+      "service": "Travellers Walk",
+      "lat": -12.4651556007073,
+      "lng": 130.846853715866
+    },
+    {
+      "service": "Pavonia Way",
+      "lat": -12.3870438502139,
+      "lng": 130.850825730274
+    },
+    {
+      "service": "Rapid Creek Reserve",
+      "lat": -12.3892222056202,
+      "lng": 130.867178702907
+    },
+    {
+      "service": "Jingili Water Gardens",
+      "lat": -12.3872841085605,
+      "lng": 130.867574495048
+    },
+    {
+      "service": "Rapid Creek Reserve - North",
+      "lat": -12.3800771689116,
+      "lng": 130.862451288844
+    },
+    {
+      "service": "Kahlin Foreshore",
+      "lat": -12.4542464014554,
+      "lng": 130.826029485851
+    },
+    {
+      "service": "Bayview Sea Wall",
+      "lat": -12.4410697109295,
+      "lng": 130.85543728354
+    },
+    {
+      "service": "Bayview Sea Wall",
+      "lat": -12.4386537471876,
+      "lng": 130.852686782707
+    },
+    {
+      "service": "Malak Greenbelt",
+      "lat": -12.3916127943585,
+      "lng": 130.901151039794
+    },
+    {
+      "service": "East Point Reserve",
+      "lat": -12.4095681409186,
+      "lng": 130.824273462066
+    },
+    {
+      "service": "Garanmanuk Park",
+      "lat": -12.3588073390538,
+      "lng": 130.887310561301
+    },
+    {
+      "service": "Mindil Beach",
+      "lat": -12.4455882462271,
+      "lng": 130.8322629019
+    },
+    {
+      "service": "East Point Reserve and Fannie Bay Oval Surrounds",
+      "lat": -12.4158839632576,
+      "lng": 130.838634241794
+    }
+  ],
+  "Swimming Pool": [
+    {
+      "service": "Nightcliff Pool",
+      "lat": -12.3769866826457,
+      "lng": 130.848331070075
+    },
+    {
+      "service": "Casuarina Pool",
+      "lat": -12.3743072821628,
+      "lng": 130.884556902687
+    },
+    {
+      "service": "Parap Pool",
+      "lat": -12.4279560083751,
+      "lng": 130.841461000349
+    }
+  ],
+  "Oval": [
+    {
+      "service": "Tiwi Oval",
+      "lat": -12.3629972364342,
+      "lng": 130.877851691219
+    },
+    {
+      "service": "Wanguri Oval",
+      "lat": -12.3693482100485,
+      "lng": 130.887465810555
+    },
+    {
+      "service": "Nakara Oval",
+      "lat": -12.3700581536679,
+      "lng": 130.876332507429
+    },
+    {
+      "service": "Jingili Oval",
+      "lat": -12.3885376982587,
+      "lng": 130.874781581842
+    },
+    {
+      "service": "Wulagi Oval",
+      "lat": -12.3829898539033,
+      "lng": 130.897080781078
+    },
+    {
+      "service": "Wagaman Oval",
+      "lat": -12.3813159359054,
+      "lng": 130.88566959061
+    },
+    {
+      "service": "Moil Oval",
+      "lat": -12.3900668918088,
+      "lng": 130.881140249449
+    },
+    {
+      "service": "Malak Oval",
+      "lat": -12.3944127027978,
+      "lng": 130.902709776123
+    },
+    {
+      "service": "Nightcliff Oval",
+      "lat": -12.3829404438149,
+      "lng": 130.851686276182
+    },
+    {
+      "service": "Fannie Bay Oval",
+      "lat": -12.4220216817293,
+      "lng": 130.840220582938
+    },
+    {
+      "service": "Bagot Oval",
+      "lat": -12.3964671697912,
+      "lng": 130.857420542687
+    },
+    {
+      "service": "Dinah Beach Oval",
+      "lat": -12.4489280317983,
+      "lng": 130.84752538325
+    },
+    {
+      "service": "Gardens Oval Two",
+      "lat": -12.448108340567,
+      "lng": 130.833335155
+    },
+    {
+      "service": "Gardens Oval One",
+      "lat": -12.4463074326405,
+      "lng": 130.834107918767
+    },
+    {
+      "service": "Kahlin Oval",
+      "lat": -12.4549909812626,
+      "lng": 130.826740066227
+    },
+    {
+      "service": "Chrisp Street Oval",
+      "lat": -12.3843843073798,
+      "lng": 130.857632487501
+    },
+    {
+      "service": "Anula Oval",
+      "lat": -12.3904767041627,
+      "lng": 130.892023818536
+    }
+  ],
+  "Public Library": [
+    {
+      "service": "Casuarina Library",
+      "lat": -12.3742684177906,
+      "lng": 130.879930795119
+    },
+    {
+      "service": "Nightcliff Public Library",
+      "lat": -12.3869871687671,
+      "lng": 130.85039795951
+    },
+    {
+      "service": "Karama Public Library",
+      "lat": -12.4011985180306,
+      "lng": 130.915323562659
+    },
+    {
+      "service": "Darwin City Public Library",
+      "lat": -12.4648501213539,
+      "lng": 130.845611026849
+    }
+  ],
+  "Childcare Centre": [
+    {
+      "service": "Casuarina Child Centre",
+      "lat": -12.3749671547588,
+      "lng": 130.879754279705
+    },
+    {
+      "service": "Karama Childcare Centre",
+      "lat": -12.4016251097361,
+      "lng": 130.916660153116
+    },
+    {
+      "service": "Nightcliff Childcare Centre",
+      "lat": -12.382312186601,
+      "lng": 130.850595400262
+    },
+    {
+      "service": "Parap Childcare Centre",
+      "lat": -12.4354606836121,
+      "lng": 130.840057795759
+    },
+    {
+      "service": "Stuart Park Childcare Centre",
+      "lat": -12.4442227440387,
+      "lng": 130.846064334847
+    },
+    {
+      "service": "Mitchell Street Childcare Centre",
+      "lat": -12.4575246939174,
+      "lng": 130.833658499755
+    },
+    {
+      "service": "Malak Childcare Centre",
+      "lat": -12.3940589038707,
+      "lng": 130.903805592228
+    }
+  ],
+  "Community Facility": [
+    {
+      "service": "Lakeside Drive Community Garden",
+      "lat": -12.3805117710397,
+      "lng": 130.86871411158
+    },
+    {
+      "service": "Amphitheatre",
+      "lat": -12.4470366963389,
+      "lng": 130.836571872803
+    }
+  ],
+  "Outdoor Recreation": [
+    {
+      "service": "Bill Bell Park Tennis Courts",
+      "lat": -12.3793081273148,
+      "lng": 130.84796370268
+    },
+    {
+      "service": "Lake Alexander",
+      "lat": -12.4142648945744,
+      "lng": 130.831868865138
+    },
+    {
+      "service": "Parap Tennis Courts",
+      "lat": -12.4285800501551,
+      "lng": 130.841953693948
+    },
+    {
+      "service": "Velodrome",
+      "lat": -12.3962205659896,
+      "lng": 130.859080404102
+    },
+    {
+      "service": "Chrisp Street Tennis Courts",
+      "lat": -12.3835416441316,
+      "lng": 130.85738410413
+    },
+    {
+      "service": "Jingili Water Gardens Skate Park",
+      "lat": -12.385497825229,
+      "lng": 130.866371675752
+    }
+  ],
+  "Community Centre": [
+    {
+      "service": "Nightcliff Community Centre",
+      "lat": -12.3819966130024,
+      "lng": 130.851007253188
+    },
+    {
+      "service": "Malak Community Centre",
+      "lat": -12.3935580051324,
+      "lng": 130.903786171322
+    },
+    {
+      "service": "Lyons Community Centre",
+      "lat": -12.3593895932879,
+      "lng": 130.888262440615
+    }
+  ],
+  "Cemetery": [
+    {
+      "service": "Darwin General Cemetery",
+      "lat": -12.3934774521526,
+      "lng": 130.875328328842
+    },
+    {
+      "service": "Palmerston Cemetery",
+      "lat": -12.436966348249,
+      "lng": 130.840385674841
+    },
+    {
+      "service": "Darwin Chinese Memorial Cemetery",
+      "lat": -12.4454649058654,
+      "lng": 130.848817932622
+    },
+    {
+      "service": "Gardens Cemetery",
+      "lat": -12.4482654683092,
+      "lng": 130.834389684082
+    }
+  ],
+  "Council Facility": [
+    {
+      "service": "City of Darwin Operations Centre",
+      "lat": -12.4297734420491,
+      "lng": 130.860230608286
+    },
+    {
+      "service": "Boulter Road Animal Pound",
+      "lat": -12.4154683198728,
+      "lng": 130.919194812142
+    },
+    {
+      "service": "Shoal Bay Waste & Recycling Facility",
+      "lat": -12.3881598900365,
+      "lng": 130.924620362028
+    },
+    {
+      "service": "Civic Centre",
+      "lat": -12.4644663122557,
+      "lng": 130.8455361591
+    }
+  ],
+  "Car Park": [
+    {
+      "service": "Cavenagh Street Car Park",
+      "lat": -12.4601194248669,
+      "lng": 130.84170587967
+    },
+    {
+      "service": "Doctors Gully Car Park",
+      "lat": -12.4595907438984,
+      "lng": 130.832681435075
+    },
+    {
+      "service": "Mitchell St Car Park 1",
+      "lat": -12.4586359192403,
+      "lng": 130.83576027136
+    },
+    {
+      "service": "Mc Lachlan St Car Park",
+      "lat": -12.4586122199437,
+      "lng": 130.837994451891
+    },
+    {
+      "service": "McMinn Street Carpark",
+      "lat": -12.4593853662775,
+      "lng": 130.844364601413
+    },
+    {
+      "service": "Mitchell Street Carpark 2",
+      "lat": -12.459283781342,
+      "lng": 130.836155256333
+    },
+    {
+      "service": "Chinatown Car Park",
+      "lat": -12.4609288464092,
+      "lng": 130.839024745907
+    },
+    {
+      "service": "West Lane Car Park",
+      "lat": -12.4645278418313,
+      "lng": 130.8424224203
+    },
+    {
+      "service": "Nichols Place Car Park",
+      "lat": -12.4632606876169,
+      "lng": 130.845662607058
+    },
+    {
+      "service": "Esplanade Off Street Carpark",
+      "lat": -12.4667823232992,
+      "lng": 130.841240996502
+    },
+    {
+      "service": "Shadforth Lane Car Park",
+      "lat": -12.4629840526668,
+      "lng": 130.840467374619
+    }
+  ]
+}}

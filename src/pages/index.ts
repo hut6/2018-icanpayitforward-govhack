@@ -5,6 +5,10 @@ export const FirstRunPage = 'WelcomePage';
 // Change this if not using tabs
 export const MainPage = 'ListMasterPage';
 
+export const SettingsPage = 'SettingsPage';
+export const ListMasterPage = 'ListMasterPage';
+export const ContentPage = 'ContentPage';
+
 // The initial root pages for our tabs (remove if not using tabs)
 export const Tab1Root = 'ListMasterPage';
 export const Tab2Root = 'SearchPage';

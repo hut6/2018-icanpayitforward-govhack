@@ -16,13 +16,7 @@ import { Settings } from '../providers';
     </ion-header>
 
     <ion-content>
-      <ion-list *ngIf="settingsReady == true">
-        <button menuClose ion-item *ngIf="options.accountType == 'rider'" (click)="openPage(riderPage)">
-            {{riderPage.title}}
-        </button>
-        <button menuClose ion-item *ngIf="options.accountType == 'driver'" (click)="openPage(driverPage)">
-            {{driverPage.title}}
-        </button>
+      <ion-list>
         <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
           {{p.title}}
         </button>
@@ -43,13 +37,13 @@ export class MyApp {
   pages: any[] = [
     //{ title: 'Tutorial', component: 'TutorialPage' },
     //{ title: 'Activity', component: 'TabsPage' },
-    //{ title: 'Cards', component: 'CardsPage' },
-    //{ title: 'Request a Ride', component: 'ContentPage' },
+    { title: 'Request a Ride', component: 'ContentPage' },
     //{ title: 'Login', component: 'LoginPage' },
     //{ title: 'Signup', component: 'SignupPage' },
-    //{ title: 'Pending Requests', component: 'ListMasterPage' },
+    { title: 'Pending Requests', component: 'ListMasterPage' },
     //{ title: 'Menu', component: 'MenuPage' },
-    { title: 'Profile', component: 'SettingsPage' },
+      { title: 'Leaderboards', component: 'CardsPage' },
+      { title: 'Profile', component: 'SettingsPage' },
     //{ title: 'Search', component: 'SearchPage' },
     { title: 'Sign Out', component: 'WelcomePage' },
 
@@ -105,7 +99,6 @@ export class MyApp {
       this.settings.load().then(() => {
           this.settingsReady = true;
           this.options = this.settings.allSettings;
-          console.log(this.options)
           this.ref.detectChanges();
       })
   }

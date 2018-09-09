@@ -8,13 +8,35 @@
 
 
 <ion-content>
+
   <div class="item-profile" text-center #profilePic >
-    Insert map here.
+    <div id="map_canvas"></div>
   </div>
 
   <div class="item-detail" padding>
-    <h2>{{item.name}}</h2>
-
-    <p></p>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-avatar item-start>
+            <img [src]="item.profilePic">
+          </ion-avatar>
+          <h1>{{item.name}}</h1>
+        </ion-item>
+      </ion-col>
+      <ion-col right text-right>
+        <button ion-button large clear>
+          <ion-icon name="football" color="secondary" *ngIf="item.type == 'fitness'"></ion-icon>
+          <ion-icon name="medkit" color="secondary" *ngIf="item.type == 'doctor'"></ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+    <p><strong>From:</strong> {{ item.pickup }}</p>
+    <p><strong>To:</strong> {{ item.destination }}</p>
+    <p><strong>On:</strong> {{item.date}} at {{ item.time }}</p>
+    <p *ngIf="item.notes"><strong>Notes:</strong> {{item.notes}}</p>
+    <button ion-button full large color="accept" (click)="accept()">
+      Accept
+    </button>
   </div>
+
 </ion-content>

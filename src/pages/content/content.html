@@ -1,19 +1,48 @@
 <ion-header>
   <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
     <ion-title>
-      Request a Ride
+      Make a request
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
 
-  <ion-card>
-    <img src="assets/imgs/doctor.jpg" (click)="addItem('doctor')">
-  </ion-card>
+  <ion-row>
+    <ion-col>
+      <ion-card>
+        <img src="assets/imgs/doctor.svg" (click)="addItem('doctor')">
+        <button ion-button full clear>Doctor/Medical</button>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+      <ion-card>
+        <img src="assets/imgs/fitness.svg" (click)="addItem('fitness')">
+        <button ion-button full clear>Sports/Fitness</button>
+      </ion-card>
+    </ion-col>
+  </ion-row>
 
-  <ion-card>
-    <img src="assets/imgs/fitness.jpg" (click)="addItem('fitness')">
-  </ion-card>
+  <ion-row>
+    <ion-col>
+      <ion-card>
+        <img src="assets/imgs/work.svg">
+        <button ion-button full clear>Job Interview</button>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+      <ion-card>
+        <img src="assets/imgs/gift.svg" (click)="fakeAlert()">
+        <button ion-button full clear>Act of Kindness</button>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+
+
+
 
 </ion-content>

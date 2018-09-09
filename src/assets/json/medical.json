@@ -1,0 +1,872 @@
+{ "medical": [
+  {
+    "category": "Diabetes Educator",
+    "services": [
+      {
+        "lat": -23.691809499999998,
+        "lng": 133.8777165,
+        "service": "Alice Specialised Medicine"
+      },
+      {
+        "lat": -23.691809499999998,
+        "lng": 133.8777165,
+        "service": "Healthy Living NT - Alice Springs"
+      },
+      {
+        "lat": -12.364010733333332,
+        "lng": 130.8802363,
+        "service": "Healthy Living NT - Tiwi"
+      },
+      {
+        "lat": -12.364010733333332,
+        "lng": 130.8802363,
+        "service": "NT Diabetes in Pregnancy Clinical Register (Top End)"
+      },
+      {
+        "lat": -12.364010733333332,
+        "lng": 130.8802363,
+        "service": "Casuarina Square Medical Centre - GP and Specialist Clinic"
+      }
+    ]
+  },
+  {
+    "category": "Physiotherapy ",
+    "services": [
+      {
+        "lat": -23.70628385,
+        "lng": 133.87628525000002,
+        "service": "Northern Territory PHN - Alice Springs Physiotherapy and Sports Injury Clinic"
+      },
+      {
+        "lat": -23.70628385,
+        "lng": 133.87628525000002,
+        "service": "Alice Springs Physiotherapy & Sports Injury Clinic"
+      },
+      {
+        "lat": -14.464689,
+        "lng": 132.263073,
+        "service": "Active Physiotherapy Katherine"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Stepping Stones In Life Therapy Service"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Palmerston Physiotherapy Clinic"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Territory Sports Medicine"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Northcare Physio - Darwin"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Moil Physiotherapy"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Humpty Doo Top Health Physiotherapy & Acupuncture"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Territory Hands"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "The NT Physiotherapy Clinic"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Bodyfit NT"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Ability Physiotherapy"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Darwin Physiotherapy"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Movement for Life Physiotherapy - Moulden"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Movement For Life Physiotherapy - Coconut Grove"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Alice Thorn Acupuncture & Physiotherapy"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Stepping Stones in Life Therapy Services"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Movement for Life Physiotherapy - Tiwi"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Danila Dilba - Knuckey Street Clinic"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Darwin Podiatry Clinic - Berrimah"
+      },
+      {
+        "lat": -12.43577260526316,
+        "lng": 130.8886144263158,
+        "service": "Richard Nuttall Physiotherapy"
+      },
+      {
+        "lat": -12.1836779,
+        "lng": 136.7868352,
+        "service": "Arnhem Family Medical Clinic"
+      }
+    ]
+  },
+  {
+    "category": "Counselling",
+    "services": [
+      {
+        "lat": -23.7060115625,
+        "lng": 133.88032326249999,
+        "service": "Commonwealth Respite And Carelink Centre - Alice Springs"
+      },
+      {
+        "lat": -23.7060115625,
+        "lng": 133.88032326249999,
+        "service": "Catholiccare NT - Alice Springs"
+      },
+      {
+        "lat": -23.7060115625,
+        "lng": 133.88032326249999,
+        "service": "Congress Social & Emotional Wellbeing - SEWB"
+      },
+      {
+        "lat": -23.7060115625,
+        "lng": 133.88032326249999,
+        "service": "Easa - Alice Springs"
+      },
+      {
+        "lat": -23.7060115625,
+        "lng": 133.88032326249999,
+        "service": "Headspace - Alice Springs"
+      },
+      {
+        "lat": -23.7060115625,
+        "lng": 133.88032326249999,
+        "service": "Family Relationship Centre - Alice Springs"
+      },
+      {
+        "lat": -23.7060115625,
+        "lng": 133.88032326249999,
+        "service": "Carers NT - Alice Springs"
+      },
+      {
+        "lat": -23.7060115625,
+        "lng": 133.88032326249999,
+        "service": "Relationships Australia Northern Territory - Alice Springs"
+      },
+      {
+        "lat": -19.645112,
+        "lng": 134.189258,
+        "service": "Catholiccare Tennant Creek"
+      },
+      {
+        "lat": -14.46417775,
+        "lng": 132.263824,
+        "service": "Catholiccare Katherine"
+      },
+      {
+        "lat": -14.46417775,
+        "lng": 132.263824,
+        "service": "Carers NT- Katherine"
+      },
+      {
+        "lat": -14.46417775,
+        "lng": 132.263824,
+        "service": "Relationships Australia - Katherine"
+      },
+      {
+        "lat": -14.46417775,
+        "lng": 132.263824,
+        "service": "Somerville - Katherine"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Breakthrough Psychology"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "headspace Darwin"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Melaleuca Refugee Centre"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Commwealth Respite and Carelink Centre - Darwin"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "VVCS Winnellie"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Carers NT- Darwin"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Parentline - Queensland and the Northern Territory"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Catholiccare NT"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Easa - Stuart Park"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Dementia Australia NT - Darwin"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Arthritis and Osteoporosis Northern Territory"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Sids and Kids NT"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Catholiccare Palmerston"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Northern Territory Stolen Generations Aboriginal Corporation (NTSGAC)"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Somerville Community Services - Wagaman"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Somerville Community Services Incorporated"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Recovery Counselling & Massage Services"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Darwin Counselling and Hypnosis"
+      },
+      {
+        "lat": -12.414116164533434,
+        "lng": 130.8712841249897,
+        "service": "Fiona Leibrick Psychologist"
+      },
+      {
+        "lat": -12.183910903930649,
+        "lng": 136.78419862353502,
+        "service": "Outlook Psychology Practice"
+      },
+      {
+        "lat": -12.183910903930649,
+        "lng": 136.78419862353502,
+        "service": "Anglicare East Arnhem"
+      },
+      {
+        "lat": -12.0668077,
+        "lng": 134.2296348,
+        "service": "Malabam Health Board Aboriginal Corporation"
+      }
+    ]
+  },
+  {
+    "category": "Dentist",
+    "services": [
+      {
+        "lat": -12.573461,
+        "lng": 131.099704,
+        "service": "Humpty Doo Dental"
+      },
+      {
+        "lat": -12.524918,
+        "lng": 131.042385,
+        "service": "Acacia Dental Surgery"
+      },
+      {
+        "lat": -12.479833450460825,
+        "lng": 130.9851861101075,
+        "service": "Able Dental Care"
+      },
+      {
+        "lat": -12.479833450460825,
+        "lng": 130.9851861101075,
+        "service": "Palmerston Dental Surgery"
+      },
+      {
+        "lat": -12.479833450460825,
+        "lng": 130.9851861101075,
+        "service": "National Dental Care - Palmerston"
+      },
+      {
+        "lat": -12.479833450460825,
+        "lng": 130.9851861101075,
+        "service": "Oral Health Services Palmerston"
+      },
+      {
+        "lat": -12.455918384490962,
+        "lng": 130.83863933142086,
+        "service": "National Dental Care - Darwin"
+      },
+      {
+        "lat": -12.455918384490962,
+        "lng": 130.83863933142086,
+        "service": "Dr Hsiong Dental Surgery"
+      },
+      {
+        "lat": -12.455918384490962,
+        "lng": 130.83863933142086,
+        "service": "City Dentists (NT)"
+      },
+      {
+        "lat": -12.455918384490962,
+        "lng": 130.83863933142086,
+        "service": "Smith Street Dental Practice"
+      },
+      {
+        "lat": -12.455918384490962,
+        "lng": 130.83863933142086,
+        "service": "Grass Roots Dental"
+      },
+      {
+        "lat": -12.455918384490962,
+        "lng": 130.83863933142086,
+        "service": "Grass Roots Dental"
+      },
+      {
+        "lat": -12.455918384490962,
+        "lng": 130.83863933142086,
+        "service": "Hyalite Dental"
+      },
+      {
+        "lat": -12.455918384490962,
+        "lng": 130.83863933142086,
+        "service": "Parap Family Dental"
+      },
+      {
+        "lat": -12.400975,
+        "lng": 130.915679,
+        "service": "Karama Dental Family Practice"
+      },
+      {
+        "lat": -12.3920475,
+        "lng": 130.85003749999998,
+        "service": "Extreme Dentistry"
+      },
+      {
+        "lat": -12.3920475,
+        "lng": 130.85003749999998,
+        "service": "Nightcliff Dental Surgery"
+      },
+      {
+        "lat": -12.374720171428573,
+        "lng": 130.88292664285714,
+        "service": "Moil Dental Surgery"
+      },
+      {
+        "lat": -12.374720171428573,
+        "lng": 130.88292664285714,
+        "service": "Dr S H Chieng Dental Surgery"
+      },
+      {
+        "lat": -12.374720171428573,
+        "lng": 130.88292664285714,
+        "service": "Casuarina Square Dental Care"
+      },
+      {
+        "lat": -12.374720171428573,
+        "lng": 130.88292664285714,
+        "service": "Trower Dental"
+      },
+      {
+        "lat": -12.374720171428573,
+        "lng": 130.88292664285714,
+        "service": "Oral Health Services NT (Remote Services - Top End)"
+      },
+      {
+        "lat": -12.374720171428573,
+        "lng": 130.88292664285714,
+        "service": "Laser Dentistry"
+      },
+      {
+        "lat": -12.374720171428573,
+        "lng": 130.88292664285714,
+        "service": "Darwin Dental Specialists"
+      }
+    ]
+  },
+  {
+    "category": "Drug and\/or alcohol Counselling",
+    "services": [
+      {
+        "lat": -23.704251812499997,
+        "lng": 133.8798427625,
+        "service": "Headspace - Alice Springs"
+      },
+      {
+        "lat": -23.704251812499997,
+        "lng": 133.8798427625,
+        "service": "Drug And Alcohol Services Association, Alice Springs Inc. (NT)"
+      },
+      {
+        "lat": -23.704251812499997,
+        "lng": 133.8798427625,
+        "service": "Commonwealth Respite And Carelink Centre - Alice Springs"
+      },
+      {
+        "lat": -23.704251812499997,
+        "lng": 133.8798427625,
+        "service": "Easa - Alice Springs"
+      },
+      {
+        "lat": -23.704251812499997,
+        "lng": 133.8798427625,
+        "service": "Catholiccare NT - Alice Springs"
+      },
+      {
+        "lat": -23.704251812499997,
+        "lng": 133.8798427625,
+        "service": "Remote Alcohol & Other Drugs Workforce Program"
+      },
+      {
+        "lat": -23.704251812499997,
+        "lng": 133.8798427625,
+        "service": "Carers NT - Alice Springs"
+      },
+      {
+        "lat": -23.704251812499997,
+        "lng": 133.8798427625,
+        "service": "Congress Social & Emotional Wellbeing - SEWB"
+      },
+      {
+        "lat": -19.653739,
+        "lng": 134.193724,
+        "service": "Barkly Region Alcohol And Drug Advisory Group (Bradaag)"
+      },
+      {
+        "lat": -14.462250000000001,
+        "lng": 132.2645315,
+        "service": "Carers NT- Katherine"
+      },
+      {
+        "lat": -14.462250000000001,
+        "lng": 132.2645315,
+        "service": "Wurli Wurlinjang Health Service"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Banyan House"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Breakthrough Psychology"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Commwealth Respite and Carelink Centre - Darwin"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Amity Community Service (NT)"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Alcohol & Drug Information Service (ADIS) - NT"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Carers NT- Darwin"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Carers NT"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Foundation Of Rehabilitation With Aboriginal Alcohol Related Difficulties (Forwaard)"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Catholiccare NT"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "headspace Darwin"
+      },
+      {
+        "lat": -12.429607309090908,
+        "lng": 130.87000727272726,
+        "service": "Council For Aboriginal Alcohol Program Services (Caaps) Inc"
+      }
+    ]
+  },
+  {
+    "category": "GP Doctor",
+    "services": [
+      {
+        "lat": -13.23661,
+        "lng": 131.10424,
+        "service": "Adelaide River Community Health Centre"
+      },
+      {
+        "lat": -13.045704,
+        "lng": 131.030303,
+        "service": "Batchelor Primary Health Care Centre"
+      },
+      {
+        "lat": -12.70256,
+        "lng": 131.014312,
+        "service": "Arafura Medical Clinic - Berry Springs"
+      },
+      {
+        "lat": -12.57460815,
+        "lng": 131.1011537,
+        "service": "Humpty Doo Surgery"
+      },
+      {
+        "lat": -12.57460815,
+        "lng": 131.1011537,
+        "service": "Arafura Medical Clinic - Freds Pass"
+      },
+      {
+        "lat": -12.5486822,
+        "lng": 130.6936514,
+        "service": "Belyuen Community Health Centre"
+      },
+      {
+        "lat": -12.510257500000002,
+        "lng": 131.02892875,
+        "service": "Coolalinga Medical Centre"
+      },
+      {
+        "lat": -12.510257500000002,
+        "lng": 131.02892875,
+        "service": "Howard Springs Health Centre"
+      },
+      {
+        "lat": -12.510257500000002,
+        "lng": 131.02892875,
+        "service": "Arafura Medical Clinic - Zuccoli"
+      },
+      {
+        "lat": -12.510257500000002,
+        "lng": 131.02892875,
+        "service": "Arafura Medical Clinic - Howard Springs"
+      },
+      {
+        "lat": -12.482811166871478,
+        "lng": 130.98763818227002,
+        "service": "Bakewell Medical Centre"
+      },
+      {
+        "lat": -12.482811166871478,
+        "lng": 130.98763818227002,
+        "service": "Arafura Medical Clinic - Oasis"
+      },
+      {
+        "lat": -12.482811166871478,
+        "lng": 130.98763818227002,
+        "service": "Danila Dilba - Palmerston Health Clinic"
+      },
+      {
+        "lat": -12.482811166871478,
+        "lng": 130.98763818227002,
+        "service": "Doctors At Palmerston"
+      },
+      {
+        "lat": -12.482811166871478,
+        "lng": 130.98763818227002,
+        "service": "Palmerston Medical Clinic"
+      },
+      {
+        "lat": -12.482811166871478,
+        "lng": 130.98763818227002,
+        "service": "Tristar Medical Group - Palmerston"
+      },
+      {
+        "lat": -12.482811166871478,
+        "lng": 130.98763818227002,
+        "service": "Family Planning Welfare Association of NT - Palmerston"
+      },
+      {
+        "lat": -12.482811166871478,
+        "lng": 130.98763818227002,
+        "service": "Palmerston Work Injury and GP Clinic"
+      },
+      {
+        "lat": -12.482811166871478,
+        "lng": 130.98763818227002,
+        "service": "Palmerston GP SuperClinic"
+      },
+      {
+        "lat": -12.454981713080512,
+        "lng": 130.84197740006508,
+        "service": "Sonic HealthPlus - Darwin"
+      },
+      {
+        "lat": -12.454981713080512,
+        "lng": 130.84197740006508,
+        "service": "Territory Medical - Mitchell"
+      },
+      {
+        "lat": -12.454981713080512,
+        "lng": 130.84197740006508,
+        "service": "Darwin City Medical Centre"
+      },
+      {
+        "lat": -12.454981713080512,
+        "lng": 130.84197740006508,
+        "service": "Danila Dilba - Knuckey Street Clinic"
+      },
+      {
+        "lat": -12.454981713080512,
+        "lng": 130.84197740006508,
+        "service": "Cavenagh Medical Centre"
+      },
+      {
+        "lat": -12.454981713080512,
+        "lng": 130.84197740006508,
+        "service": "Danila Dilba - Men's Clinic"
+      },
+      {
+        "lat": -12.454981713080512,
+        "lng": 130.84197740006508,
+        "service": "Top End Medical Centre - Stuart Park"
+      },
+      {
+        "lat": -12.454981713080512,
+        "lng": 130.84197740006508,
+        "service": "Stuart Park Surgery & Darwin After Hours Medical Service"
+      },
+      {
+        "lat": -12.454981713080512,
+        "lng": 130.84197740006508,
+        "service": "Tristar Medical Group - Parap"
+      },
+      {
+        "lat": -12.4321998,
+        "lng": 130.9234068,
+        "service": "Berrimah Family Practice"
+      },
+      {
+        "lat": -12.399799975,
+        "lng": 130.855498275,
+        "service": "Winnellie Family Practice"
+      },
+      {
+        "lat": -12.399799975,
+        "lng": 130.855498275,
+        "service": "Danila Dilba Bagot Community Clinic"
+      },
+      {
+        "lat": -12.399799975,
+        "lng": 130.855498275,
+        "service": "Northside Health NT"
+      },
+      {
+        "lat": -12.399799975,
+        "lng": 130.855498275,
+        "service": "Family Planning Welfare Association of NT - Darwin"
+      },
+      {
+        "lat": -12.399799975,
+        "lng": 130.855498275,
+        "service": "Pandanus Medical NT"
+      },
+      {
+        "lat": -12.399799975,
+        "lng": 130.855498275,
+        "service": "Territory Medical - Nightcliff"
+      },
+      {
+        "lat": -12.399799975,
+        "lng": 130.855498275,
+        "service": "Progress Drive Medical Centre"
+      },
+      {
+        "lat": -12.399799975,
+        "lng": 130.855498275,
+        "service": "Danila Dilba - Rapid Creek Clinic"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Karama Medical Centre"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Danila Dilba  - Malak Clinic"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Moil Medical Centre"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "GenWise Darwin Clinic"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Leanyer Medical Clinic"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Vanderlin Drive Surgery"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Top End Medical Centre - Casuarina"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Casuarina Square Medical Centre - GP and Specialist Clinic"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Carepoint Medical Centre Darwin"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Arafura Medical Clinic - Casuarina"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Nakara Medical Clinic"
+      },
+      {
+        "lat": -12.378605922617593,
+        "lng": 130.88869417127273,
+        "service": "Tiwi Medical Clinic"
+      }
+    ]
+  },
+  {
+    "category": "Hospital",
+    "services": [
+      {
+        "lat": -23.7058358,
+        "lng": 133.8783516,
+        "service": "Alice Springs Hospital"
+      },
+      {
+        "lat": -19.646572,
+        "lng": 134.188119,
+        "service": "Tennant Creek Hospital"
+      },
+      {
+        "lat": -14.39939565,
+        "lng": 132.3529687,
+        "service": "Katherine Hospital"
+      },
+      {
+        "lat": -14.39939565,
+        "lng": 132.3529687,
+        "service": "Katherine Hospital"
+      },
+      {
+        "lat": -12.391860274999999,
+        "lng": 130.91373095,
+        "service": "Royal Darwin Hospital"
+      },
+      {
+        "lat": -12.391860274999999,
+        "lng": 130.91373095,
+        "service": "Palmerston Regional Hospital"
+      },
+      {
+        "lat": -12.391860274999999,
+        "lng": 130.91373095,
+        "service": "Darwin Private Hospital"
+      },
+      {
+        "lat": -12.391860274999999,
+        "lng": 130.91373095,
+        "service": "NT Medical Specialists"
+      },
+      {
+        "lat": -12.18639,
+        "lng": 136.7779522,
+        "service": "Gove District Hospital"
+      }
+    ]
+  }
+]}

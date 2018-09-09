@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Ride Details</ion-title>
+    <ion-title>Where do you need to go?</ion-title>
     <ion-buttons end>
       <button ion-button (click)="cancel()">
         <span color="primary" showWhen="ios">
@@ -20,19 +20,9 @@
 
     <ion-list>
       <ion-item>
-        <h1>
-          Your Details
-        </h1>
-      </ion-item>
-      <ion-item>
-        <input type="file" #fileInput style="visibility: hidden; height: 0px" name="files[]" (change)="processWebImage($event)" />
         <div class="profile-image-wrapper">
           <div class="profile-image" [style.backgroundImage]="getProfileImageStyle()" *ngIf="this.form.controls.profilePic.value"></div>
         </div>
-      </ion-item>
-      <ion-item>
-        <ion-label floating>Name</ion-label>
-        <ion-input [disabled]="true" type="text" placeholder="" formControlName="name"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label floating>Reason for Request</ion-label>
@@ -40,22 +30,31 @@
                    [value]="type=='doctor' ? 'Doctors Appointment or Medical Check up' : 'Sports or Fitness'"></ion-input>
       </ion-item>
       <ion-item>
-        <h1>
-          Ride Details
-        </h1>
-      </ion-item>
-      <ion-item>
         <ion-label floating>Pickup Location</ion-label>
         <ion-input type="text" placeholder="" formControlName="pickup"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label floating>Destination</ion-label>
-        <ion-input type="text" placeholder="" formControlName="destination"></ion-input>
+        <ion-select formControlName="destination" (ionChange)="updateLatLng()">
+          <ion-option *ngFor="let location of destinations" (value)="location.service">
+              {{ location.service }}
+          </ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Date</ion-label>
+        <ion-datetime displayFormat="DD MMMM YYYY" pickerFormat="YYYY MMMM DDDD" formControlName="date"></ion-datetime>
       </ion-item>
       <ion-item>
         <ion-label floating>Time</ion-label>
-        <ion-input type="text" placeholder="" formControlName="time"></ion-input>
+        <ion-datetime displayFormat="hh:mm A" pickerFormat="hh:mm A" formControlName="time"></ion-datetime>
       </ion-item>
+
+      <ion-item>
+        <ion-label floating>Notes</ion-label>
+        <ion-textarea type="text" placeholder="" formControlName="notes"></ion-textarea>
+      </ion-item>
+
       <ion-item>
         <button ion-button full large (click)="done()" [disabled]="!isReadyToSave">Submit</button>
       </ion-item>

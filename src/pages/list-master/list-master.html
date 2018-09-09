@@ -1,38 +1,89 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Ride Requests</ion-title>
-
-    <ion-buttons end>
-      <!--
-      <button ion-button icon-only (click)="addItem()">
-        <ion-icon name="add"></ion-icon>
-      </button>
-      -->
-    </ion-buttons>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Pending Requests</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 <ion-content>
 
-  <ion-list *ngIf="currentItems">
-    <ion-item-sliding *ngFor="let item of currentItems">
-      <button ion-item (click)="openItem(item)">
-        <ion-avatar item-start>
-          <img [src]="item.profilePic" />
-        </ion-avatar>
-        <h2>{{item.name}}</h2>
-        <p>From: {{ item.pickup }}</p>
-        <p>To: {{ item.destination }}</p>
-        <ion-note item-end *ngIf="item.distance">{{ item.distance }}</ion-note>
-      </button>
+  <ng-container *ngIf="currentItems">
 
-      <ion-item-options>
-        <button ion-button color="accept" (click)="deleteItem(item)">
-          ACCEPT
-        </button>
-      </ion-item-options>
-    </ion-item-sliding>
+  <ion-list>
+      <ion-item-sliding *ngFor="let item of currentItems">
+          <button ion-item (click)="openItem(item)">
+              <ion-avatar item-start>
+                  <img [src]="item.profilePic" />
+              </ion-avatar>
+              <h2>{{item.name}}</h2>
+              <p>Going to {{ item.destination }}</p>
+              <ion-note item-end>
+                  <ion-icon name="football" color="secondary" *ngIf="item.type == 'fitness'"></ion-icon>
+                  <ion-icon name="medkit" color="secondary" *ngIf="item.type == 'doctor'"></ion-icon>
+              </ion-note>
+          </button>
+
+          <ion-item-options>
+              <button ion-button color="danger" (click)="deleteItem(item)">
+                  HIDE
+              </button>
+          </ion-item-options>
+      </ion-item-sliding>
   </ion-list>
+
+
+      <!--
+    <ion-card *ngFor="let item of currentItems">
+
+        <ion-row>
+            <ion-col>
+                <ion-item>
+                    <ion-avatar item-start>
+                        <img [src]="item.profilePic">
+                    </ion-avatar>
+                    <h1>{{item.name}}</h1>
+                </ion-item>
+            </ion-col>
+            <ion-col right text-right>
+                <button ion-button large clear>
+                    <ion-icon name="football" color="secondary" *ngIf="item.type == 'fitness'"></ion-icon>
+                    <ion-icon name="medkit" color="secondary" *ngIf="item.type == 'doctor'"></ion-icon>
+                </button>
+            </ion-col>
+        </ion-row>
+
+
+      <ion-card-content>
+          <p><strong>From:</strong> {{ item.pickup }}</p>
+          <p><strong>To:</strong> {{ item.destination }}</p>
+          <p><strong>On:</strong> {{item.date}} at {{ item.time }}</p>
+      </ion-card-content>
+
+      <ion-row>
+        <ion-col>
+          <button ion-button color="accept" icon-start (click)="confirmAlert()">
+            <ion-icon name='thumbs-up'></ion-icon>
+            Accept
+          </button>
+        </ion-col>
+        <ion-col>
+
+        </ion-col>
+        <ion-col right text-right>
+          <button ion-button color="primary" icon-start (click)="openItem(item)">
+            <ion-icon name='information-circle'></ion-icon>
+            More info
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+      -->
+
+
+  </ng-container>
+
 </ion-content>

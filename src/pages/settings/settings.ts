@@ -1,10 +1,11 @@
 import {Component, ViewChild} from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {IonicPage, Nav, NavController, NavParams} from 'ionic-angular';
 
 import { Settings } from '../../providers';
 import {Camera} from "@ionic-native/camera";
+import {ContentPage, ListMasterPage} from "../";
 
 /**
  * The Settings page is a simple form that syncs with a Settings provider
@@ -17,6 +18,7 @@ import {Camera} from "@ionic-native/camera";
   templateUrl: 'settings.html'
 })
 export class SettingsPage {
+@ViewChild(Nav) nav: Nav;
   @ViewChild('fileInput') fileInput;
   // Our local settings object
   options: any;
@@ -46,9 +48,10 @@ export class SettingsPage {
 
   _buildForm() {
     let group: any = {
-      name: [this.options.name],
-      profilePic: [this.options.profilePic],
-      accountType: [this.options.accountType],
+        name: [this.options.name],
+        profilePic: [this.options.profilePic],
+        accountType: [this.options.accountType],
+        age: [this.options.age]
     };
 
     this.form = this.formBuilder.group(group);
@@ -65,7 +68,7 @@ export class SettingsPage {
   }
 
   ionViewWillEnter() {
-    // Build an empty form for the template to render
+      // Build an empty form for the template to render
     this.form = this.formBuilder.group({});
 
     this.page = this.navParams.get('page') || this.page;
@@ -73,7 +76,7 @@ export class SettingsPage {
 
     this.translate.get(this.pageTitleKey).subscribe((res) => {
       this.pageTitle = res;
-    })
+    });
 
     this.settings.load().then(() => {
       this.settingsReady = true;
@@ -86,9 +89,14 @@ export class SettingsPage {
     getPicture() {
         if (Camera['installed']()) {
             this.camera.getPicture({
+                quality: 80,
                 destinationType: this.camera.DestinationType.DATA_URL,
-                targetWidth: 96,
-                targetHeight: 96
+                encodingType: this.camera.EncodingType.JPEG,
+                mediaType: this.camera.MediaType.PICTURE,
+                allowEdit: true,
+                targetWidth: 250,
+                targetHeight: 250,
+                correctOrientation: true
             }).then((data) => {
                 this.form.patchValue({ 'profilePic': 'data:image/jpg;base64,' + data });
             }, (err) => {
@@ -102,7 +110,6 @@ export class SettingsPage {
     processWebImage(event) {
         let reader = new FileReader();
         reader.onload = (readerEvent) => {
-
             let imageData = (readerEvent.target as any).result;
             this.form.patchValue({ 'profilePic': imageData });
         };
@@ -112,6 +119,15 @@ export class SettingsPage {
 
     getProfileImageStyle() {
         return 'url(' + this.form.controls['profilePic'].value + ')'
+    }
+
+    continue(){
+        if (this.form.controls['accountType'].value == 'driver'){
+            this.navCtrl.setRoot(ListMasterPage);
+        } else {
+            this.navCtrl.setRoot(ContentPage);
+            //this.navCtrl.setRoot(page.component);
+        }
     }
 
 
